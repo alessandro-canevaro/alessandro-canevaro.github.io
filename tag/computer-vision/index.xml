@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision | Alessandro Canevaro</title>
+    <link>https://alessandro-canevaro.github.io/tag/computer-vision/</link>
+      <atom:link href="https://alessandro-canevaro.github.io/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Vision</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alessandro-canevaro.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Computer Vision</title>
+      <link>https://alessandro-canevaro.github.io/tag/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>Object Tracking and Classification</title>
+      <link>https://alessandro-canevaro.github.io/project/perception/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/perception/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;The objective of the final project is to detect, track, predict, and classify moving objects, whether
+they are occluded or unoccluded. In our scenario, we are given a stereo camera setup looking over
+a conveyor belt. Random objects are placed at one end of the conveyor belt at regular intervals.
+This simulates a general-purpose case where these objects need to have their attributes recognized
+in real-time. The main steps required to achieve our project objectives are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Camera Calibration and Rectification&lt;/li&gt;
+&lt;li&gt;Object Detection and Tracking&lt;/li&gt;
+&lt;li&gt;Object Classification&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image Detection</title>
+      <link>https://alessandro-canevaro.github.io/project/boats/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/boats/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;The aim is to develop a computer vision algorithm that can detect boats in an image. Specifically,
+it should draw a rectangular bounding box around each founded boat, and it should work correctly
+even when the image has no boats in it. Note that boats can appear from any perspective, and they
+can be very different: from small dinghies to cruise ships. The intersection over union (IoU) metric
+is used on the provided test images to measure the algorithm’s performance.&lt;/p&gt;
+&lt;h2 id=&#34;adopted-approach&#34;&gt;Adopted approach&lt;/h2&gt;
+&lt;p&gt;Due to the great variety of boats and the availability of a large data set of images, a machine learning
+approach seems promising. Hence the use of a neural network in the proposed solution. In particular,
+the developed algorithm initially extracts features (key points and descriptors) from the image, then
+classifies the descriptors as boat/non-boat, and lastly, builds the bounding boxes. The last step is,
+in turn, composed of several sub-steps. The algorithm first generates a probability density function
+(PDF) of the potential locations of the boats. The PDF modes are then clustered using the mean
+shift algorithm, and finally, the bounding boxes are generated with a simple iterative procedure. The
+complete algorithm is here summarized:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Extract features key points and descriptors from the to-be-detected image.&lt;/li&gt;
+&lt;li&gt;Classify each descriptor as boat/non-boat using the trained classifier.&lt;/li&gt;
+&lt;li&gt;Generate the probability map of the possible positions of the boats.&lt;/li&gt;
+&lt;li&gt;Find and cluster the modes of the above probability density using the mean shift algorithm.&lt;/li&gt;
+&lt;li&gt;Prune and suppress &amp;ldquo;weak&amp;rdquo; clusters.&lt;/li&gt;
+&lt;li&gt;For each cluster, generate the bounding box.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

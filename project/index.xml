@@ -5,7 +5,7 @@
     <link>https://alessandro-canevaro.github.io/project/</link>
       <atom:link href="https://alessandro-canevaro.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://alessandro-canevaro.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,15 +13,123 @@
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://alessandro-canevaro.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://alessandro-canevaro.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>Object Tracking and Classification</title>
+      <link>https://alessandro-canevaro.github.io/project/perception/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/perception/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;The objective of the final project is to detect, track, predict, and classify moving objects, whether
+they are occluded or unoccluded. In our scenario, we are given a stereo camera setup looking over
+a conveyor belt. Random objects are placed at one end of the conveyor belt at regular intervals.
+This simulates a general-purpose case where these objects need to have their attributes recognized
+in real-time. The main steps required to achieve our project objectives are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Camera Calibration and Rectification&lt;/li&gt;
+&lt;li&gt;Object Detection and Tracking&lt;/li&gt;
+&lt;li&gt;Object Classification&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Operation</title>
+      <link>https://alessandro-canevaro.github.io/project/mlops/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/mlops/</guid>
+      <description>&lt;h2 id=&#34;overall-goal-of-the-project&#34;&gt;Overall goal of the project&lt;/h2&gt;
+&lt;p&gt;The main goal of this project is to apply what we have learned in this course about MLOps to a simple machine/deep learning problem. We aim to make our whole pipeline as understandable and efficient as possible, using the tools we have been given - having good and clear structure and setup, adding comments to the code to make it easier to understand and so on. We will tackle an image classification problem and try to get as good results as possible, given our timeframe.&lt;/p&gt;
+&lt;h2 id=&#34;what-framework-are-you-going-to-use&#34;&gt;What framework are you going to use&lt;/h2&gt;
+&lt;p&gt;It was decided to use the &lt;a href=&#34;https://github.com/kornia/kornia&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kornia&lt;/a&gt; framework as it was deemed the best suited for this project which involves image classification.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-you-intend-to-include-the-framework-into-your-project&#34;&gt;How to you intend to include the framework into your project&lt;/h2&gt;
+&lt;p&gt;The main purpose of the Kornia framework in this project is &lt;a href=&#34;https://kornia.readthedocs.io/en/latest/applications/image_augmentations.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data augmentation&lt;/a&gt;. The goal is to obtain a larger dataset, adding transformed images to the dataset we have already. Specifically, the focus is on the augmentation, the color, and the enhance modules of Kornia as these will provide all the necessary functions to manipulate the images (i.e. rotating, scaling, normalizing, etc.).&lt;/p&gt;
+&lt;h2 id=&#34;what-data-are-you-going-to-run-on&#34;&gt;What data are you going to run on&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Kaggle link:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/grassknoted/asl-alphabet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/grassknoted/asl-alphabet&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;General description:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The data set is a collection of images of hands signing the American Sign Language alphabet, separated in 29 folders which represent the various classes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Size:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Train data: 87,000 images, 200x200 pixels each.&lt;/li&gt;
+&lt;li&gt;Test data: 29 images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Classes:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;26 for the letters A-Z.&lt;/li&gt;
+&lt;li&gt;3 classes for SPACE, DELETE and NOTHING.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-deep-learning-models-do-you-expect-to-use&#34;&gt;What deep learning models do you expect to use&lt;/h2&gt;
+&lt;p&gt;We will use mostly CNN (convolutional neural networks). Our focus will be on the overall architecture and parameters of our network (number of layers, padding, strides, max-pooling etc.).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Disease Tracker</title>
+      <link>https://alessandro-canevaro.github.io/project/mbse/</link>
+      <pubDate>Sat, 04 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/mbse/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;The focus of this project is to identify if a wearable device can be used to reduce the spreading rate of COVID-19 by tracking a person’s body temperature and oxygen saturation in the blood in order to determine with a certain probability whether or not she might be infected, and if that is the case, warn her as well as the others in close proximity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robot Operating System (ROS)</title>
+      <link>https://alessandro-canevaro.github.io/project/ros/</link>
+      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/ros/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;This project focuses on the development of software for a simulated robotic system, Turtlebot 3. This system should be capable of navigating a mostly predefined operational environment and to identify targets using information coming from QR codes. The environment is mostly predefined however the obstacles and targets, QR codes, can be spawned in pseudo random locations.&lt;/p&gt;
+&lt;p&gt;There will always be five QR codes, which spawn in the predefined operational area, however, the specific location of these QR codes will not be the same all the time. All QR codes contain four attributes. The attributes are the coordinates of the current QR target, the coordinates of the next QR target, and the ID of the QR code, which can be anywhere from 1 to 5. Lastly, a letter is also an attribute and these must be structured in the correct order in order to extract a message. Furthermore, the last QR code, i.e. the QR code number
+5, has, as the next qr code coordinates, the coordinates of the first QR code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image Detection</title>
+      <link>https://alessandro-canevaro.github.io/project/boats/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/boats/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;The aim is to develop a computer vision algorithm that can detect boats in an image. Specifically,
+it should draw a rectangular bounding box around each founded boat, and it should work correctly
+even when the image has no boats in it. Note that boats can appear from any perspective, and they
+can be very different: from small dinghies to cruise ships. The intersection over union (IoU) metric
+is used on the provided test images to measure the algorithm’s performance.&lt;/p&gt;
+&lt;h2 id=&#34;adopted-approach&#34;&gt;Adopted approach&lt;/h2&gt;
+&lt;p&gt;Due to the great variety of boats and the availability of a large data set of images, a machine learning
+approach seems promising. Hence the use of a neural network in the proposed solution. In particular,
+the developed algorithm initially extracts features (key points and descriptors) from the image, then
+classifies the descriptors as boat/non-boat, and lastly, builds the bounding boxes. The last step is,
+in turn, composed of several sub-steps. The algorithm first generates a probability density function
+(PDF) of the potential locations of the boats. The PDF modes are then clustered using the mean
+shift algorithm, and finally, the bounding boxes are generated with a simple iterative procedure. The
+complete algorithm is here summarized:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Extract features key points and descriptors from the to-be-detected image.&lt;/li&gt;
+&lt;li&gt;Classify each descriptor as boat/non-boat using the trained classifier.&lt;/li&gt;
+&lt;li&gt;Generate the probability map of the possible positions of the boats.&lt;/li&gt;
+&lt;li&gt;Find and cluster the modes of the above probability density using the mean shift algorithm.&lt;/li&gt;
+&lt;li&gt;Prune and suppress &amp;ldquo;weak&amp;rdquo; clusters.&lt;/li&gt;
+&lt;li&gt;For each cluster, generate the bounding box.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Control of the SCARA robot</title>
+      <link>https://alessandro-canevaro.github.io/project/scara/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/scara/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;After having derived the equations of motion for the SCARA robot, 2 constrol solutions were designed, implemented and tested in MATLAB and simulink for trajectory tracking purposes. Specifically the first is a PD with gravity compensation controller, while the second one is a Feedback linearization controller.&lt;/p&gt;
 </description>
     </item>
     

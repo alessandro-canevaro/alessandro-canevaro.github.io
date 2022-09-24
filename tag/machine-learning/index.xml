@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Alessandro Canevaro</title>
+    <link>https://alessandro-canevaro.github.io/tag/machine-learning/</link>
+      <atom:link href="https://alessandro-canevaro.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alessandro-canevaro.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Machine Learning</title>
+      <link>https://alessandro-canevaro.github.io/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Machine Learning Operation</title>
+      <link>https://alessandro-canevaro.github.io/project/mlops/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/mlops/</guid>
+      <description>&lt;h2 id=&#34;overall-goal-of-the-project&#34;&gt;Overall goal of the project&lt;/h2&gt;
+&lt;p&gt;The main goal of this project is to apply what we have learned in this course about MLOps to a simple machine/deep learning problem. We aim to make our whole pipeline as understandable and efficient as possible, using the tools we have been given - having good and clear structure and setup, adding comments to the code to make it easier to understand and so on. We will tackle an image classification problem and try to get as good results as possible, given our timeframe.&lt;/p&gt;
+&lt;h2 id=&#34;what-framework-are-you-going-to-use&#34;&gt;What framework are you going to use&lt;/h2&gt;
+&lt;p&gt;It was decided to use the &lt;a href=&#34;https://github.com/kornia/kornia&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kornia&lt;/a&gt; framework as it was deemed the best suited for this project which involves image classification.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-you-intend-to-include-the-framework-into-your-project&#34;&gt;How to you intend to include the framework into your project&lt;/h2&gt;
+&lt;p&gt;The main purpose of the Kornia framework in this project is &lt;a href=&#34;https://kornia.readthedocs.io/en/latest/applications/image_augmentations.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;data augmentation&lt;/a&gt;. The goal is to obtain a larger dataset, adding transformed images to the dataset we have already. Specifically, the focus is on the augmentation, the color, and the enhance modules of Kornia as these will provide all the necessary functions to manipulate the images (i.e. rotating, scaling, normalizing, etc.).&lt;/p&gt;
+&lt;h2 id=&#34;what-data-are-you-going-to-run-on&#34;&gt;What data are you going to run on&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Kaggle link:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/grassknoted/asl-alphabet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/grassknoted/asl-alphabet&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;General description:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The data set is a collection of images of hands signing the American Sign Language alphabet, separated in 29 folders which represent the various classes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Size:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Train data: 87,000 images, 200x200 pixels each.&lt;/li&gt;
+&lt;li&gt;Test data: 29 images.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Classes:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;26 for the letters A-Z.&lt;/li&gt;
+&lt;li&gt;3 classes for SPACE, DELETE and NOTHING.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-deep-learning-models-do-you-expect-to-use&#34;&gt;What deep learning models do you expect to use&lt;/h2&gt;
+&lt;p&gt;We will use mostly CNN (convolutional neural networks). Our focus will be on the overall architecture and parameters of our network (number of layers, padding, strides, max-pooling etc.).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robotics | Alessandro Canevaro</title>
+    <link>https://alessandro-canevaro.github.io/tag/robotics/</link>
+      <atom:link href="https://alessandro-canevaro.github.io/tag/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robotics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alessandro-canevaro.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Robotics</title>
+      <link>https://alessandro-canevaro.github.io/tag/robotics/</link>
+    </image>
+    
+    <item>
+      <title>Robot Operating System (ROS)</title>
+      <link>https://alessandro-canevaro.github.io/project/ros/</link>
+      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/ros/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;This project focuses on the development of software for a simulated robotic system, Turtlebot 3. This system should be capable of navigating a mostly predefined operational environment and to identify targets using information coming from QR codes. The environment is mostly predefined however the obstacles and targets, QR codes, can be spawned in pseudo random locations.&lt;/p&gt;
+&lt;p&gt;There will always be five QR codes, which spawn in the predefined operational area, however, the specific location of these QR codes will not be the same all the time. All QR codes contain four attributes. The attributes are the coordinates of the current QR target, the coordinates of the next QR target, and the ID of the QR code, which can be anywhere from 1 to 5. Lastly, a letter is also an attribute and these must be structured in the correct order in order to extract a message. Furthermore, the last QR code, i.e. the QR code number
+5, has, as the next qr code coordinates, the coordinates of the first QR code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Control of the SCARA robot</title>
+      <link>https://alessandro-canevaro.github.io/project/scara/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/scara/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;After having derived the equations of motion for the SCARA robot, 2 constrol solutions were designed, implemented and tested in MATLAB and simulink for trajectory tracking purposes. Specifically the first is a PD with gravity compensation controller, while the second one is a Feedback linearization controller.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
