@@ -133,5 +133,19 @@ complete algorithm is here summarized:&lt;/p&gt;
 </description>
     </item>
     
+    <item>
+      <title>Matematica Dolce</title>
+      <link>https://alessandro-canevaro.github.io/project/dolce/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/dolce/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;Matematica Dolce is a handbook of mathematics for secondary school written by several hands and with an open-source licence.
+The collaborative mode allows a strong sharing in the choice and construction of materials and ways of presenting the topics.
+Then book is freely downloadable from &lt;a href=&#34;https://www.matematicadolce.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.matematicadolce.eu/&lt;/a&gt;, and it is also available as LAMBDA book for blind students at &lt;a href=&#34;https://ddmath.eu/en/matematica-dolce/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ddmath.eu/en/matematica-dolce/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I collaborated with the project coordinator (prof. D. Zambelli) in writing a program to automatically generate maths exercises.
+The code is written in Python and the output is automatically formatted in LaTeX.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
