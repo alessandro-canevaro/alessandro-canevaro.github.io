@@ -5,12 +5,58 @@
     <link>https://alessandro-canevaro.github.io/</link>
       <atom:link href="https://alessandro-canevaro.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Alessandro Canevaro</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 08 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://alessandro-canevaro.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Alessandro Canevaro</title>
       <link>https://alessandro-canevaro.github.io/</link>
     </image>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://alessandro-canevaro.github.io/project/vpn/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/vpn/</guid>
+      <description>&lt;h2 id=&#34;overall-goal-of-the-project&#34;&gt;Overall goal of the project&lt;/h2&gt;
+&lt;p&gt;Value iteration networks represent a way to combine reinforcement learning with planning. The idea is fairly simple: If we know a model of the environment, it is well known that the so-called Value-iteration algorithm (See Suttons book linked above) is the optimal way to plan ahead. A ‘model’ in this context is essentially just a mapping from inputs to the reinforcement learning agent to a probability distribution, i.e. you can think about it as a softmax multi-class classifier. In reinforcement learning, we don’t know a model, but we know how to build a softmax classifier. So what that gives us is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We build a softmax classifier, which output a possible model of the environment&lt;/li&gt;
+&lt;li&gt;Given this model, we can compute the optimal action by running the value-iteration algorithm&lt;/li&gt;
+&lt;li&gt;The reinforcement learning agent can then output this action&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We build a softmax classifier, which output a possible model of the environment
+Given this model, we can compute the optimal action by running the value-iteration algorithm
+The reinforcement learning agent can then output this action
+The idea is pretty simple: When we interact with the environment, we get information about how good or bad an action is. We can use this information to train the neural network using gradient descent. The neat thing is that the combined algorithm ends up resembling a standard convolution neural network. Since we are integrating planning with the reinforcement learning algorithm, this makes the combined model able to generalize to new situations. You can read more in the original paper: &lt;a href=&#34;https://arxiv.org/abs/1602.02867&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/abs/1602.02867&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Systems Optimization</title>
+      <link>https://alessandro-canevaro.github.io/project/optim/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/optim/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;As an input you are given:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(1) An application model consisting of a set of TT tasks and a set of ET tasks,&lt;/li&gt;
+&lt;li&gt;(2) An architecture model consisting of one core that schedules TT tasks with timeline scheduling and ET tasks with polling servers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will have to design and implement an optimization algorithm that determines an optimized solution which consists of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(1) The number of polling servers, which then become extra TT tasks.&lt;/li&gt;
+&lt;li&gt;(2) For each polling server (task), the period, budget, and deadline.&lt;/li&gt;
+&lt;li&gt;(3) Which sub-sets of ET tasks are handled within the respective polling servers.&lt;/li&gt;
+&lt;li&gt;(4) A TT schedule such that also the TT tasks are schedulable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The solution should be optimized such that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(1) Both the TT and ET tasks are schedulable, i.e., they complete before their deadlines.&lt;/li&gt;
+&lt;li&gt;(2) The ET task separation constraints are satisfied.&lt;/li&gt;
+&lt;li&gt;(3) The average worst-case response times (WCRT) of all tasks (TT and ET) is minimized.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Object Tracking and Classification</title>

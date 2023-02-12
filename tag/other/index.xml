@@ -5,12 +5,39 @@
     <link>https://alessandro-canevaro.github.io/tag/other/</link>
       <atom:link href="https://alessandro-canevaro.github.io/tag/other/index.xml" rel="self" type="application/rss+xml" />
     <description>Other</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://alessandro-canevaro.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Other</title>
       <link>https://alessandro-canevaro.github.io/tag/other/</link>
     </image>
+    
+    <item>
+      <title>Systems Optimization</title>
+      <link>https://alessandro-canevaro.github.io/project/optim/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://alessandro-canevaro.github.io/project/optim/</guid>
+      <description>&lt;h2 id=&#34;activity-goal&#34;&gt;Activity goal&lt;/h2&gt;
+&lt;p&gt;As an input you are given:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(1) An application model consisting of a set of TT tasks and a set of ET tasks,&lt;/li&gt;
+&lt;li&gt;(2) An architecture model consisting of one core that schedules TT tasks with timeline scheduling and ET tasks with polling servers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will have to design and implement an optimization algorithm that determines an optimized solution which consists of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(1) The number of polling servers, which then become extra TT tasks.&lt;/li&gt;
+&lt;li&gt;(2) For each polling server (task), the period, budget, and deadline.&lt;/li&gt;
+&lt;li&gt;(3) Which sub-sets of ET tasks are handled within the respective polling servers.&lt;/li&gt;
+&lt;li&gt;(4) A TT schedule such that also the TT tasks are schedulable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The solution should be optimized such that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(1) Both the TT and ET tasks are schedulable, i.e., they complete before their deadlines.&lt;/li&gt;
+&lt;li&gt;(2) The ET task separation constraints are satisfied.&lt;/li&gt;
+&lt;li&gt;(3) The average worst-case response times (WCRT) of all tasks (TT and ET) is minimized.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Disease Tracker</title>
